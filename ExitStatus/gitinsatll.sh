@@ -8,7 +8,7 @@ if [ $USERID -ne 0 ] ; then
     exit 1
 fi
 
-yum install mysql-server -y
+apt install mysql-server
 
 if [ $? -ne 0 ] ; then
     echo "SQL server insatll failed"
