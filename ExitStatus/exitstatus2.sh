@@ -1,6 +1,6 @@
 #!/bin/bash
 
-lss -ltr
+ls -ltr
 
 if [ $? -ne 0 ]; then
     echo "previous command is failure"
